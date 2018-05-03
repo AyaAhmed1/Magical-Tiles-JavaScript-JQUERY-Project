@@ -1,0 +1,69 @@
+<html>
+	<head>
+	<style>
+	.cell20{
+  width: 30px;
+  height:20px;
+  background-color: white;
+  border:1px solid black;
+  display: inline-block;
+		}
+	.cell50{
+  width: 20px;
+  height:15px;
+  background-color: white;
+  border:1px solid black;
+  display: inline-block;
+		}	
+		
+		.cell100{
+  width: 10px;
+  height:10px;
+  background-color: white;
+  border:1px solid black;
+  display: inline-block;
+		}	
+			
+		.green {
+  background-color: green;
+}
+	</style>
+	</head>
+        <body>	
+	
+			<div id="buttons" align="center" >
+			<label> Grid Size </label>
+			
+			  <select id="grid">
+		<option value="20">20*20</option>
+		<option value="50">50*50</option>
+		<option value="100">100*100</option>
+		</select>
+		  
+		 <button id="reset"> Reset </button>
+		  
+	     <button id="next"> Next </button>
+		<button id="previous"> Previous </button>
+		<button id="run">Start</button>
+		 	<label> Delay </label>  
+		     <select id="delay">
+		<option value="100">100</option>
+		<option value="200">200 </option> 
+		<option value="500">500</option>
+		<option value="1000">1000</option>
+		</select>
+		 
+		
+		</div>
+	
+		      <div id="main" align="center" >
+			  	 <!--Here Exsist Buttons -->
+			  </div>
+		
+		<script type="text/javascript" src="jquery-3.1.1.js"></script>
+		<script type="text/javascript" src="project.js"></script>
+				
+
+	</body>
+
+</html>
